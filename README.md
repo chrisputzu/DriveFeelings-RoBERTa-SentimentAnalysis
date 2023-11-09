@@ -25,3 +25,5 @@ Il progetto si compone di 4 fasi e ad ogni fase corrisponde un branch dedicato:
    ogni casa automobilistica e confrontando l'accuratezza tra i modelli pre-trained e fine-tuned, così da etichettare i dati estratti utilizzando il modello più performante.
 
 -------------------------
+[![Top linguaggio di programmazione](https://img.shields.io/github/languages/top/USERNAME/REPO_NAME)](https://github.com/USERNAME/REPO_NAME)
+
