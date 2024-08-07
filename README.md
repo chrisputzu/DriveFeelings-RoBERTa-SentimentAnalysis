@@ -1,29 +1,23 @@
-# DriveFeelings: Cosa pensano gli utenti di Twitter su BMW, Renault e Tesla? #
+# DriveFeelings: What Do Twitter Users Think About BMW, Renault, and Tesla? #
 
-Il progetto analizza i testi dei tweets degli utenti del social network Twitter che contengono le parole chiave 
-di tre case automobilistiche scelte casualmente tra le più rilevanti del settore:
+This project analyzes the text of tweets from Twitter users containing keywords related to three randomly selected major automotive brands:
 
 1. BMW
 2. Renault
 3. Tesla
 
-L'obiettivo del progetto è quello di capire cosa pensano gli utenti riguardo queste auto, quale è la più apprezzata
-o la meno apprezzata, ma anche gli argomenti a cui fanno riferimento ed infine implementare un classificatore di sentiment
-con il modello pre-addestrato di RoBERTa.
+The goal of the project is to understand user opinions about these cars, determine which is the most or least appreciated, examine the topics referenced, and ultimately implement a sentiment classifier using the pre-trained RoBERTa model.
 
 -------------------------
 
+### Analysis to Be Performed ###
 
-### Analisi da svolgere ###
+The project consists of 4 phases, each corresponding to a dedicated branch:
 
-Il progetto si compone di 4 fasi e ad ogni fase corrisponde un branch dedicato:
-
-1. TwitterScraper: Estrazione 10.000 tweets per ogni casa automobilistica, per un Totale 30.000.
-2. PreProcessing: Pulitura dei tweets per la predisposizione all'analisi di sentiment e topic.
-3. TopicModeling: Per raggruppare i tweets estratti in 5 categorie di argomenti o topic.
-4. RoBERTa SentimentAnalysis: sentiment analysis effettuata con modello RoBERTa considerando ogni etichetta (positive/neutral/negative) per 
-   ogni casa automobilistica e confrontando l'accuratezza tra i modelli pre-trained e fine-tuned, così da etichettare i dati estratti utilizzando il modello più performante.
+1. TwitterScraper: Extraction of 10,000 tweets for each automotive brand, totaling 30,000 tweets.
+2. PreProcessing: Cleaning the tweets to prepare them for sentiment and topic analysis.
+3. TopicModeling: Grouping the extracted tweets into 5 categories or topics.
+4. RoBERTa SentimentAnalysis: Performing sentiment analysis using the RoBERTa model, evaluating each label (positive/neutral/negative) for each automotive brand, and comparing the accuracy between pre-trained and fine-tuned models to label the extracted data using the most effective model.
 
 -------------------------
-[![Top linguaggio di programmazione](https://img.shields.io/github/languages/top/chrisputzu/DriveFeelings-RoBERTa-SentimentAnalysis)](https://github.com/chrisputzu/DriveFeelings-RoBERTa-SentimentAnalysis)
-
+[![Top Programming Language](https://img.shields.io/github/languages/top/chrisputzu/DriveFeelings-RoBERTa-SentimentAnalysis)](https://github.com/chrisputzu/DriveFeelings-RoBERTa-SentimentAnalysis)
